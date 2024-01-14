@@ -31,13 +31,13 @@ const ControlCenter = () => {
       <Pressable onPress={skipToPrevious}>
         <Icon style={styles.icon} name="skip-previous" size={40} />
       </Pressable>
-      <Pressable onPress={() => togglePlayback(playBackState)}>
+      {/* <Pressable onPress={() => togglePlayback(playBackState)}>
         <Icon
           style={styles.icon}
           name={playBackState === State.Playing ? 'pause' : 'play-arrow'}
           size={75}
         />
-      </Pressable>
+      </Pressable> */}
       <Pressable onPress={skipToNext}>
         <Icon style={styles.icon} name="skip-next" size={40} />
       </Pressable>
